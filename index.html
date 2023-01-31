@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud AppLication</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body style="color: white; background-color: #1d2630;">
+   <div class="container mt-5">
+    <div class="text-center">
+    <h1 class="display-4 mb-5" id="text"><strong> Crud AppLication</strong></h1>
+    </div>
+   <div class="main row justify-content-center">
+    <form action="" id="student-form" class="row justify-content-center mb-4">
+        <div class="col-10 col-md-8
+        mb-3">
+            <label for="firstName">First Name</label>
+            <input type="text" name="text" id="firstName" placeholder="Enter first name" class="form-control">
+        </div>
+        <div class="col-10 col-md-8
+        mb-3">
+            <label for="lastName">Last Name</label>
+            <input type="text" name="text" id="lastName" placeholder="Enter last name" class="form-control">
+        </div>
+        <div class="col-10 col-md-8
+        mb-3">
+            <label for="rollNo">Roll No</label>
+            <input type="text" name="text" id="rollNo" placeholder="Enter roll No" class="form-control">
+        </div>
+        <div class="col-10 col-md-8
+        ">
+        <button type="button" class="btn btn-success" onclick="onSubmit()">Submit</button>
+    </div>
+    </form>
+<div class="col-12 mt-5 ">
+    <table class="table table-dark">
+    <thead>
+        <tr>
+        <th>First Name</th>
+        <th>last Name</th>
+        <th>Roll No</th>
+        <th>Actions</th>
+    </tr>
+</thead>
+<tbody id="students-list">
+<!-- <tr>
+    <td>Dear</td>
+    <td>Programmer</td>
+    <td>25</td>
+    <td>
+        <a href="#" class="btn btn-warning btn-sm edit sm-mb-2">Edit</a>
+        <a href="#" class="btn btn-danger btn-sm edit ">Delete</a>
+</td>
+
+</tr> -->
+</tbody>
+</table>
+</div>
+</div>
+
+
+   </div>
+
+<script src="script.js">
+    
+
+
+    
+</script>
+
+</body>
+</html>
